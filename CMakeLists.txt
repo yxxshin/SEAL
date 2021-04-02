@@ -569,7 +569,7 @@ endif()
 
 # [option] SEAL_BUILD_EXAMPLES
 set(SEAL_BUILD_EXAMPLES_OPTION_STR "Build C++ examples for Microsoft SEAL")
-option(SEAL_BUILD_EXAMPLES ${SEAL_BUILD_EXAMPLES_OPTION_STR} OFF)
+option(SEAL_BUILD_EXAMPLES ${SEAL_BUILD_EXAMPLES_OPTION_STR} ON)
 
 if(SEAL_BUILD_EXAMPLES)
     add_subdirectory(native/examples)
